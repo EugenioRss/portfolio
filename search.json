@@ -1,0 +1,79 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Sono un Machine Learning Engineer con 7 anni di esperienza. Il mio percorso è iniziato nella consulenza di servizi specializzati in soluzioni di Data Science, Data Engineer e Business Intelligence, poi mi sono specializzato nel MLOps per industrie automotive e manufacturing e oggi lavoro nel settore aerospace su lanciatori, dove applico ML a dati di telemetria, simulazioni e test di produzione e validazione.\nMi muovo lungo tutto il ciclo di vita di un progetto ML: dalla raccolta e strutturazione dei dati grezzi, all’Exploratory Data Analysis, allo sviluppo e validazione di modelli, fino al deploy e monitoraggio. Negli ultimi anni ho ampliato il focus verso LLM e GenAI, con un particolare focus sull’Agentic AI."
+  },
+  {
+    "objectID": "about.html#profilo",
+    "href": "about.html#profilo",
+    "title": "About",
+    "section": "",
+    "text": "Sono un Machine Learning Engineer con 7 anni di esperienza. Il mio percorso è iniziato nella consulenza di servizi specializzati in soluzioni di Data Science, Data Engineer e Business Intelligence, poi mi sono specializzato nel MLOps per industrie automotive e manufacturing e oggi lavoro nel settore aerospace su lanciatori, dove applico ML a dati di telemetria, simulazioni e test di produzione e validazione.\nMi muovo lungo tutto il ciclo di vita di un progetto ML: dalla raccolta e strutturazione dei dati grezzi, all’Exploratory Data Analysis, allo sviluppo e validazione di modelli, fino al deploy e monitoraggio. Negli ultimi anni ho ampliato il focus verso LLM e GenAI, con un particolare focus sull’Agentic AI."
+  },
+  {
+    "objectID": "about.html#esperienza",
+    "href": "about.html#esperienza",
+    "title": "About",
+    "section": "Esperienza",
+    "text": "Esperienza\n\nAvio S.p.A · AI Engineer\nMaggio 2025 — oggi · Aerospace (Lanciatori)\nRiferimento tecnico AI per il team di Ingegneria. Modelli surrogati ML su simulazioni numeriche e dati sperimentali, Computer Vision per monitoring automatico di test industriali, sistema RAG aziendale end-to-end su documentazione tecnica complessa.\n\n\nConexo s.r.l · Machine Learning Specialist\nAprile 2021 — Maggio 2025 · Digital Engineering Automotive\nProgetti ML end-to-end per cliente automotive Tier 1: ingestione multi-sorgente (Oracle, Postgres, MongoDB, Hive), modellazione predittiva e clustering, interpretabilità SHAP, pipeline di Computer Vision (CNN, Faster R-CNN, DETR) con PyTorch e OCR. Coordinamento del team Data Scientist in metodologia Agile. Stack: Azure Databricks (Spark), Docker, GPU.\n\n\nCassa Lombarda S.p.A · Data Engineer & BI Specialist\nSettembre 2020 — Aprile 2021 · Banking\nData Governance e architettura DWH. Automazione ingestione (PL/SQL, trigger, XML). Soluzioni interattive di Business Intelligence.\n\n\nBip Consulting · Data Scientist\nMarzo 2019 — Settembre 2020 · Consulenza (XTech)\nProgetti multi-settore per clienti Media&TelCo (segmentazione e churn), Banking (dashboard Power BI) e Oil&Gas (supporto a gara d’appalto con definizione di KPI, SLA e governance).\n\n\nAdvancia Technology · ETL Developer\nNovembre 2018 — Marzo 2019 · Banking\nFlussi di ingestione su DWH Apache Hadoop (Hive) con IBM InfoSphere DataStage e Oracle ODI.\n\n\nINFN-CNAF (ARCES, Università di Bologna) · Tirocinante\nMarzo 2018 — Settembre 2018 · Ricerca\nTesi: ML e Deep Neural Networks per l’analisi di urti fisici su oggetti complessi. Python (Keras, TensorFlow), Matlab."
+  },
+  {
+    "objectID": "about.html#competenze-tecniche",
+    "href": "about.html#competenze-tecniche",
+    "title": "About",
+    "section": "Competenze tecniche",
+    "text": "Competenze tecniche\nLinguaggi & Core ML Python (esperto), SQL, PL/SQL · scikit-learn, XGBoost · PyTorch, TensorFlow/Keras · Pandas, NumPy · Spark (PySpark)\nComputer Vision CNN, Faster R-CNN, DETR · object detection, tracking, segmentazione · OCR (Tesseract)\nGenAI & LLM RAG end-to-end · pipeline di ingestion documentale · vector DB · embedding models · LangChain · Ollama, Open WebUI\nModellazione & Interpretabilità Modelli predittivi surrogati su dati di simulazione · Clustering · Causal ML (CausalML) · SHAP\nData Engineering Oracle, PostgreSQL, MongoDB, Hive · ETL (IBM DataStage, Oracle ODI) · DWH design · scraping (Selenium, BeautifulSoup, API)\nCloud, Deploy & DevOps Azure Databricks · Docker · Git · ambienti GPU · JupyterHub\nVisualization & BI Plotly · Matplotlib, Seaborn · Power BI · Streamlit\nLingue Italiano (madrelingua) · Inglese (avanzato) · Spagnolo (base)"
+  },
+  {
+    "objectID": "about.html#contatti",
+    "href": "about.html#contatti",
+    "title": "About",
+    "section": "Contatti",
+    "text": "Contatti\n\nEmail: eu.rossini@gmail.com\nLinkedIn: linkedin.com/in/eugenio-rossini\nGitHub: github.com/EugenioRss"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "ML applicato a dati di telemetria di volo, simulazioni, test di produzione su lanciatori.\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html#aerospace-engineering-ml",
+    "href": "projects/index.html#aerospace-engineering-ml",
+    "title": "Projects",
+    "section": "",
+    "text": "ML applicato a dati di telemetria di volo, simulazioni, test di produzione su lanciatori.\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html#industrial-ml-predictive-modeling",
+    "href": "projects/index.html#industrial-ml-predictive-modeling",
+    "title": "Projects",
+    "section": "Industrial ML / Predictive Modeling",
+    "text": "Industrial ML / Predictive Modeling\nModelli predittivi per applicazioni industriali: pneumatici, automotive, manifatturiero.\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/index.html#llm-genai-applications",
+    "href": "projects/index.html#llm-genai-applications",
+    "title": "Projects",
+    "section": "LLM & GenAI Applications",
+    "text": "LLM & GenAI Applications\nSistemi RAG, agenti LLM, applicazioni su documentazione tecnica complessa.\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Eugenio Rossini",
+    "section": "",
+    "text": "Ciao! Sono Eugenio. Sono un Machine Learning & AI Engineer con un background in matematica applicata e 7 anni di esperienza maturata in vari ambiti tra cui consulenza, finance, automotive e manufacturing. Mi muovo end-to-end dal dato grezzo al modello in produzione, con attenzione particolare a interpretabilità e validazione robusta.\nAree di lavoro principali:"
+  },
+  {
+    "objectID": "index.html#progetti-in-evidenza",
+    "href": "index.html#progetti-in-evidenza",
+    "title": "Eugenio Rossini",
+    "section": "Progetti in evidenza",
+    "text": "Progetti in evidenza\nEsplora tutti i progetti →"
+  }
+]
