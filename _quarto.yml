@@ -1,0 +1,46 @@
+project:
+  type: website
+  output-dir: _site
+
+website:
+  title: "Eugenio Rossini"
+  description: "Senior Data Scientist & ML Engineer — Aerospace, Industrial AI, GenAI"
+  site-url: https://EugenioRss.github.io/portfolio
+  repo-url: https://github.com/EugenioRss/portfolio
+  favicon: assets/images/favicon.png
+
+  navbar:
+    background: primary
+    left:
+      - href: index.qmd
+        text: Home
+      - href: projects/index.qmd
+        text: Projects
+      - href: about.qmd
+        text: About
+    right:
+      - icon: github
+        href: https://github.com/EugenioRss
+        aria-label: GitHub
+        target: _blank
+      - icon: linkedin
+        href: https://www.linkedin.com/in/eugenio-rossini/
+        aria-label: LinkedIn
+        target: _blank
+
+  page-footer:
+    left: "© 2026 Eugenio Rossini"
+    right: "Made with [Quarto](https://quarto.org/)"
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    highlight-style: github
+    fontsize: 1rem
+    linkcolor: "#2980b9"
+    link-external-newwindow: true
+    link-external-icon: true

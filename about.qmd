@@ -1,0 +1,98 @@
+---
+title: "About"
+---
+
+## Profilo
+
+Sono un Machine Learning Engineer con 7 anni di esperienza. Il mio percorso è
+iniziato nella consulenza di servizi specializzati in soluzioni di Data Science,
+Data Engineer e Business Intelligence, poi mi sono specializzato nel MLOps per
+industrie automotive e manufacturing e oggi lavoro nel settore aerospace su lanciatori,
+dove applico ML a dati di telemetria, simulazioni e test di produzione e validazione.
+
+Mi muovo lungo tutto il ciclo di vita di un progetto ML: dalla raccolta e
+strutturazione dei dati grezzi, all'Exploratory Data Analysis, allo sviluppo e validazione di
+modelli, fino al deploy e monitoraggio. Negli ultimi anni ho ampliato il focus
+verso LLM e GenAI, con un particolare focus sull'Agentic AI.
+
+## Esperienza
+
+### Avio S.p.A · AI Engineer
+*Maggio 2025 — oggi · Aerospace (Lanciatori)*
+
+Riferimento tecnico AI per il team di Ingegneria. Modelli surrogati
+ML su simulazioni numeriche e dati sperimentali, Computer Vision
+per monitoring automatico di test industriali, sistema RAG aziendale
+end-to-end su documentazione tecnica complessa.
+
+### Conexo s.r.l · Machine Learning Specialist
+*Aprile 2021 — Maggio 2025 · Digital Engineering Automotive*
+
+Progetti ML end-to-end per cliente automotive Tier 1: ingestione
+multi-sorgente (Oracle, Postgres, MongoDB, Hive), modellazione
+predittiva e clustering, interpretabilità SHAP, pipeline di Computer
+Vision (CNN, Faster R-CNN, DETR) con PyTorch e OCR. Coordinamento
+del team Data Scientist in metodologia Agile. Stack: Azure Databricks
+(Spark), Docker, GPU.
+
+### Cassa Lombarda S.p.A · Data Engineer & BI Specialist
+*Settembre 2020 — Aprile 2021 · Banking*
+
+Data Governance e architettura DWH. Automazione ingestione
+(PL/SQL, trigger, XML). Soluzioni interattive di Business Intelligence.
+
+### Bip Consulting · Data Scientist
+*Marzo 2019 — Settembre 2020 · Consulenza (XTech)*
+
+Progetti multi-settore per clienti Media&TelCo (segmentazione e
+churn), Banking (dashboard Power BI) e Oil&Gas (supporto a gara
+d'appalto con definizione di KPI, SLA e governance).
+
+### Advancia Technology · ETL Developer
+*Novembre 2018 — Marzo 2019 · Banking*
+
+Flussi di ingestione su DWH Apache Hadoop (Hive) con IBM InfoSphere
+DataStage e Oracle ODI.
+
+### INFN-CNAF (ARCES, Università di Bologna) · Tirocinante
+*Marzo 2018 — Settembre 2018 · Ricerca*
+
+Tesi: ML e Deep Neural Networks per l'analisi di urti fisici su
+oggetti complessi. Python (Keras, TensorFlow), Matlab.
+
+## Competenze tecniche
+
+**Linguaggi & Core ML**
+Python (esperto), SQL, PL/SQL · scikit-learn, XGBoost · PyTorch,
+TensorFlow/Keras · Pandas, NumPy · Spark (PySpark)
+
+**Computer Vision**
+CNN, Faster R-CNN, DETR · object detection, tracking, segmentazione
+· OCR (Tesseract)
+
+**GenAI & LLM**
+RAG end-to-end · pipeline di ingestion documentale · vector DB ·
+embedding models · LangChain · Ollama, Open WebUI
+
+**Modellazione & Interpretabilità**
+Modelli predittivi surrogati su dati di simulazione · Clustering ·
+Causal ML (CausalML) · SHAP
+
+**Data Engineering**
+Oracle, PostgreSQL, MongoDB, Hive · ETL (IBM DataStage, Oracle ODI)
+· DWH design · scraping (Selenium, BeautifulSoup, API)
+
+**Cloud, Deploy & DevOps**
+Azure Databricks · Docker · Git · ambienti GPU · JupyterHub
+
+**Visualization & BI**
+Plotly · Matplotlib, Seaborn · Power BI · Streamlit
+
+**Lingue**
+Italiano (madrelingua) · Inglese (avanzato) · Spagnolo (base)
+
+## Contatti
+
+- Email: [eu.rossini@gmail.com](mailto:eu.rossini@gmail.com)
+- LinkedIn: [linkedin.com/in/eugenio-rossini](https://www.linkedin.com/in/eugenio-rossini/)
+- GitHub: [github.com/EugenioRss](https://github.com/EugenioRss)

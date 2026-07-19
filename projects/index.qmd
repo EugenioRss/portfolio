@@ -1,0 +1,51 @@
+---
+title: "Projects"
+listing:
+  - id: aerospace
+    contents: aerospace
+    type: default
+    fields: [image, date, title, subtitle, categories]
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: false
+  - id: industrial
+    contents: industrial
+    type: default
+    fields: [image, date, title, subtitle, categories]
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: false
+  - id: genai
+    contents: genai
+    type: default
+    fields: [image, date, title, subtitle, categories]
+    sort: "date desc"
+    categories: true
+    sort-ui: false
+    filter-ui: false
+page-layout: full
+title-block-banner: true
+---
+
+## Aerospace & Engineering ML
+
+ML applicato a dati di telemetria di volo, simulazioni, test di produzione su lanciatori.
+
+:::{#aerospace}
+:::
+
+## Industrial ML / Predictive Modeling
+
+Modelli predittivi per applicazioni industriali: pneumatici, automotive, manifatturiero.
+
+:::{#industrial}
+:::
+
+## LLM & GenAI Applications
+
+Sistemi RAG, agenti LLM, applicazioni su documentazione tecnica complessa.
+
+:::{#genai}
+:::

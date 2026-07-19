@@ -1,0 +1,114 @@
+---
+title: "Modello ML per Energia Termica con Cross-Validation Cross-Flight"
+subtitle: "Predizione di una grandezza fisica critica da dati di telemetria multi-campagna"
+date: 2026-01-15
+categories: [aerospace, time-series, regression, deep-learning]
+image: ../../assets/images/placeholder.png
+draft: true
+---
+
+::: {.callout-warning appearance="simple"}
+**Nota di riservatezza**: progetto realizzato presso azienda omessa per NDA.
+Dati, codice e numeri assoluti coperti da riservatezza. Questo case study
+descrive metodologia, scelte tecniche e impatto qualitativo.
+:::
+
+## Contesto
+
+Settore aerospace, dominio dei lanciatori. I dati provengono da telemetria
+di volo: serie temporali multivariate ad alta frequenza, registrate durante
+campagne di test su diversi voli (ognuno con condizioni operative differenti).
+L'obiettivo è stimare una grandezza fisica termica difficile da misurare
+direttamente in volo, partendo da grandezze correlate disponibili dai sensori.
+
+## Il problema
+
+Gli ingegneri di sottosistema avevano bisogno di una stima robusta della
+grandezza target per due usi: validazione delle simulazioni fisiche e
+identificazione precoce di deviazioni anomale tra voli. La sfida principale
+non era costruire un modello che funzionasse bene su un singolo volo, ma
+**costruire un modello che generalizzasse a voli nuovi mai visti prima**.
+
+## Vincoli
+
+- **Dato**: poche campagne disponibili (numero a una cifra), ognuna con
+  caratteristiche operative diverse → rischio alto di overfitting al singolo volo
+- **Tecnici**: training su JupyterHub con GPU dedicata, ma nessun accesso a
+  cluster distribuiti
+- **Privacy**: niente modelli pre-addestrati scaricati via codice (vincolo IT)
+- **Validazione**: una k-fold standard avrebbe mescolato osservazioni dello
+  stesso volo tra train e test, dando metriche illusoriamente buone
+
+## Approcci considerati
+
+1. **Modelli fisici di primo principio**: già esistenti in azienda, ma rigidi
+   e lenti da iterare. Servivano come baseline, non come soluzione.
+2. **Regressione classica (tree-based, lineare)**: rapida da iterare, buona
+   interpretabilità, ma limitata nel catturare le dipendenze temporali.
+3. **Architettura deep multi-stage con vincoli fisici**: scelta finale. Permette
+   di iniettare conoscenza di dominio (vincoli di monotonicità, range fisici)
+   direttamente nella struttura della rete, riducendo il rischio di predizioni
+   non fisicamente plausibili.
+
+## Soluzione
+
+### Strategia di validazione: Leave-One-Flight-Out
+
+Il punto chiave del progetto è stata la scelta della **strategia di validazione**.
+Ho implementato una **LOOCV cross-flight (LOFO)**: per ogni iterazione, un intero
+volo viene tenuto fuori come test set, e il modello è allenato su tutti gli altri.
+Questo riproduce fedelmente lo scenario operativo (modello applicato a un volo nuovo)
+ed elimina il leakage temporale che una k-fold avrebbe introdotto.
+
+I risultati di ogni fold vengono salvati con esplicito tag del volo, permettendo
+analisi successive di robustezza e identificazione di voli "outlier" per cui il
+modello fatica.
+
+### Architettura
+
+![Pipeline del modello](../../assets/diagrams/thermal-energy-pipeline.svg)
+
+### Componenti chiave
+
+**Preprocessing**: allineamento temporale delle serie multi-sorgente, gestione
+dei missing legati a momenti di blackout del segnale, normalizzazione per-flight
+per gestire le diverse scale operative.
+
+**Modello**: architettura multi-stadio dove uno stadio iniziale stima componenti
+intermedie con interpretazione fisica, e uno stadio successivo le combina con
+una rete più flessibile per ottenere la predizione finale.
+
+**Training**: loss compound (errore principale + termini di regolarizzazione fisici),
+early stopping su un volo di validazione interno al fold.
+
+## Risultati
+
+- **Generalizzazione cross-flight**: il modello raggiunge errori comparabili
+  tra i fold della LOOCV, indicando capacità di generalizzazione e non overfit
+  al singolo volo
+- **Confronto vs baseline fisica**: miglioramento significativo nelle regioni
+  operative dove la baseline soffre di assunzioni semplificate
+- **Adozione**: il workflow di validazione cross-flight è diventato uno standard
+  interno usato anche da altri progetti del team
+
+## Cosa rifarei diversamente
+
+- **Tracking sperimentale dal giorno 1**: ho introdotto MLflow solo a metà
+  progetto. Avere tutto tracciato dall'inizio avrebbe semplificato le analisi
+  comparative tra varianti del modello.
+- **Più peso al data quality**: alcune iterazioni iniziali sono state spese
+  su tuning del modello quando il vero collo di bottiglia era la pulizia dei
+  segnali. Lezione: prima il dato, poi il modello.
+
+## Stack tecnologico
+
+`Python` · `PyTorch` · `pandas` · `NumPy` · `scikit-learn` · `JupyterHub` · `NVIDIA RTX A6000`
+
+---
+
+## TODO (rimuovere prima di pubblicare)
+
+- [ ] Diagramma architettura: `assets/diagrams/thermal-energy-pipeline.svg`
+- [ ] Thumbnail: `assets/images/thermal-energy-thumb.png`
+- [ ] Verificare con responsabile che il livello di dettaglio sia accettabile
+- [ ] Rimuovere `draft: true` quando pronto

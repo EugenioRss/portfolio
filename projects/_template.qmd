@@ -1,0 +1,84 @@
+---
+title: "Titolo Progetto"
+subtitle: "One-liner che spiega in chiaro cosa fa il progetto"
+date: 2026-01-01
+categories: [aerospace, time-series, deep-learning]
+image: ../../assets/images/placeholder.png
+draft: true
+---
+
+::: {.callout-warning appearance="simple"}
+**Nota di riservatezza**: progetto realizzato presso azienda omessa per NDA.
+Dati, codice e numeri assoluti coperti da riservatezza. Questo case study
+descrive metodologia, scelte tecniche e impatto qualitativo.
+:::
+
+## Contesto
+
+[2-3 righe: settore, tipo di dato, perché il problema esiste, ordine di grandezza del dataset]
+
+## Il problema
+
+[In termini business, non tecnici. Cosa serviva all'azienda? Qual era il pain point?]
+
+## Vincoli
+
+- **Dato**: [es. dataset di N osservazioni, multi-sorgente, sbilanciato, ...]
+- **Tecnici**: [es. inferenza in real-time, deploy su edge, ...]
+- **Privacy/Regolatori**: [se applicabile]
+- **Tempo**: [se rilevante]
+
+## Approcci considerati
+
+[Le opzioni che hai valutato. Per ognuna: pro, contro, perché scartata o scelta.
+Questa sezione mostra capacità di analisi critica — molto apprezzata da tech lead senior.]
+
+1. **Opzione A**: ...
+2. **Opzione B**: ...
+3. **Scelta finale**: ... — motivazione
+
+## Soluzione
+
+### Architettura
+
+![Pipeline del sistema](../../assets/diagrams/PROGETTO-pipeline.svg)
+
+### Componenti chiave
+
+**Preprocessing e feature engineering**
+[Cosa hai fatto sui dati grezzi. Eventuali feature ingegnerizzate non triviali.]
+
+**Modello**
+[Tipo di modello, perché questo e non altri, hyperparameter tuning approach.]
+
+**Validazione**
+[Strategia di CV/test, metriche scelte, perché. Es: "LOOCV cross-flight per evitare leakage temporale".]
+
+## Risultati
+
+- **Miglioramento [X]**: +N% rispetto a baseline [descrivi baseline]
+- **Tempo di analisi**: ridotto da [...] a [...]
+- **Impatto qualitativo**: [adoption da parte degli ingegneri, decisioni che ha sbloccato, ...]
+
+::: {.callout-tip}
+Anche se i numeri assoluti sono coperti da NDA, i delta percentuali e
+i miglioramenti relativi raccontano l'impatto in modo concreto.
+:::
+
+## Cosa rifarei diversamente
+
+[Una sezione di onestà tecnica che comunica seniority. Es: "userei MLflow dall'inizio
+per il tracking", "investirei più tempo in feature engineering rispetto a tuning", etc.]
+
+## Stack tecnologico
+
+`Python` · `pandas` · `scikit-learn` · `XGBoost` · `[libreria specifica]` · `JupyterHub` · `[deploy stack]`
+
+---
+
+## TODO (rimuovere prima di pubblicare)
+
+- [ ] Diagramma architettura: `assets/diagrams/PROGETTO-pipeline.svg`
+- [ ] Thumbnail: `assets/images/PROGETTO-thumb.png` (1200x630px consigliato)
+- [ ] Verificare che nessun numero/nome riservato sia rimasto nel testo
+- [ ] Rimuovere `draft: true` dal front matter quando pronto

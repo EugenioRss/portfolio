@@ -1,0 +1,60 @@
+/* Custom styling — leggero, professionale */
+
+/* Tipografia */
+:root {
+  --bs-body-font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+  --bs-body-line-height: 1.65;
+}
+
+/* Hero/about layout */
+.about-entity img {
+  border: 4px solid #f0f0f0;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+/* Cards dei progetti */
+.quarto-listing-default .listing-item-img-placeholder,
+.quarto-listing-default .listing-item img {
+  border-radius: 8px;
+  transition: transform 0.2s ease;
+}
+
+.quarto-listing-default .listing-item:hover img {
+  transform: translateY(-2px);
+}
+
+.quarto-listing-default .listing-title {
+  font-weight: 600;
+}
+
+.quarto-listing-default .listing-subtitle {
+  color: #6c757d;
+  font-size: 0.95rem;
+}
+
+/* Callout NDA più visibile */
+.callout-warning {
+  border-left-color: #d97706;
+}
+
+/* Code blocks */
+pre.sourceCode {
+  border-radius: 6px;
+  font-size: 0.85rem;
+}
+
+/* Navbar */
+.navbar {
+  box-shadow: 0 1px 4px rgba(0,0,0,0.06);
+}
+
+/* Sezioni titoli */
+h2 {
+  margin-top: 2.5rem;
+  padding-bottom: 0.3rem;
+  border-bottom: 1px solid #eaecef;
+}
+
+h3 {
+  margin-top: 1.8rem;
+}

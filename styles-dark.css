@@ -1,0 +1,13 @@
+/*-- scss:rules --*/
+
+h2 {
+  border-bottom: 1px solid #2d2d2d;
+}
+
+.about-entity img {
+  border-color: #2d2d2d;
+}
+
+.quarto-listing-default .listing-subtitle {
+  color: #adb5bd;
+}

@@ -1,0 +1,41 @@
+---
+title: "Eugenio Rossini"
+subtitle: "Senior Data Scientist & ML Engineer"
+about:
+  template: trestles
+  image: assets/images/profile.jpg
+  image-shape: round
+  image-width: 12em
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/eugenio-rossini/
+    - icon: github
+      text: GitHub
+      href: https://github.com/EugenioRss
+    - icon: envelope
+      text: Email
+      href: mailto:eu.rossini@gmail.com
+---
+
+Ciao! Sono Eugenio. Sono un Machine Learning & AI Engineer con un background in
+matematica applicata e 7 anni di esperienza maturata in vari ambiti tra cui consulenza, finance, automotive e
+manufacturing. Mi muovo end-to-end dal dato grezzo al modello in produzione, con
+attenzione particolare a interpretabilità e validazione robusta.
+
+**Aree di lavoro principali:**
+
+- ML applicato a ingegneria aerospace (telemetria di volo, analisi parametrica, anomaly detection)
+- Modellazione predittiva industriale (automotive, pneumatici, manifatturiero)
+- Sistemi RAG e LLM per documentazione tecnica complessa
+- Causal inference e interpretabilità dei modelli
+
+::: {.callout-note appearance="simple"}
+Molti dei progetti qui descritti sono coperti da NDA. I case study raccontano
+metodologia, scelte tecniche e impatto qualitativo, senza esporre dati, codice
+o numeri riservati.
+:::
+
+## Progetti in evidenza
+
+[Esplora tutti i progetti →](projects/index.qmd)
