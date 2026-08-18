@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -40,10 +43,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-de63f62b328812d8e578a4d74e282472.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-bb62276ab45c84d9efd712f51ff97b5a.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-1c8c31b602f57241d33c6cb1acaee0f1.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-51586b4416d712c3e8853937a7d06427.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -133,18 +136,10 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#profilo" id="toc-profilo" class="nav-link active" data-scroll-target="#profilo">Profilo</a></li>
-  <li><a href="#esperienza" id="toc-esperienza" class="nav-link" data-scroll-target="#esperienza">Esperienza</a>
-  <ul class="collapse">
-  <li><a href="#avio-s.p.a-ai-engineer" id="toc-avio-s.p.a-ai-engineer" class="nav-link" data-scroll-target="#avio-s.p.a-ai-engineer">Avio S.p.A · AI Engineer</a></li>
-  <li><a href="#conexo-s.r.l-machine-learning-specialist" id="toc-conexo-s.r.l-machine-learning-specialist" class="nav-link" data-scroll-target="#conexo-s.r.l-machine-learning-specialist">Conexo s.r.l · Machine Learning Specialist</a></li>
-  <li><a href="#cassa-lombarda-s.p.a-data-engineer-bi-specialist" id="toc-cassa-lombarda-s.p.a-data-engineer-bi-specialist" class="nav-link" data-scroll-target="#cassa-lombarda-s.p.a-data-engineer-bi-specialist">Cassa Lombarda S.p.A · Data Engineer &amp; BI Specialist</a></li>
-  <li><a href="#bip-consulting-data-scientist" id="toc-bip-consulting-data-scientist" class="nav-link" data-scroll-target="#bip-consulting-data-scientist">Bip Consulting · Data Scientist</a></li>
-  <li><a href="#advancia-technology-etl-developer" id="toc-advancia-technology-etl-developer" class="nav-link" data-scroll-target="#advancia-technology-etl-developer">Advancia Technology · ETL Developer</a></li>
-  <li><a href="#infn-cnaf-arces-università-di-bologna-tirocinante" id="toc-infn-cnaf-arces-università-di-bologna-tirocinante" class="nav-link" data-scroll-target="#infn-cnaf-arces-università-di-bologna-tirocinante">INFN-CNAF (ARCES, Università di Bologna) · Tirocinante</a></li>
-  </ul></li>
-  <li><a href="#competenze-tecniche" id="toc-competenze-tecniche" class="nav-link" data-scroll-target="#competenze-tecniche">Competenze tecniche</a></li>
-  <li><a href="#contatti" id="toc-contatti" class="nav-link" data-scroll-target="#contatti">Contatti</a></li>
+  <li><a href="#hi-im-eugenio" id="toc-hi-im-eugenio" class="nav-link active" data-scroll-target="#hi-im-eugenio">Hi, I’m Eugenio</a></li>
+  <li><a href="#how-i-work" id="toc-how-i-work" class="nav-link" data-scroll-target="#how-i-work">How I work</a></li>
+  <li><a href="#outside-work" id="toc-outside-work" class="nav-link" data-scroll-target="#outside-work">Outside work</a></li>
+  <li><a href="#get-in-touch" id="toc-get-in-touch" class="nav-link" data-scroll-target="#get-in-touch">Get in touch</a></li>
   </ul>
 </nav>
     </div>
@@ -170,62 +165,28 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="profilo" class="level2">
-<h2 class="anchored" data-anchor-id="profilo">Profilo</h2>
-<p>Sono un Machine Learning Engineer con 7 anni di esperienza. Il mio percorso è iniziato nella consulenza di servizi specializzati in soluzioni di Data Science, Data Engineer e Business Intelligence, poi mi sono specializzato nel MLOps per industrie automotive e manufacturing e oggi lavoro nel settore aerospace su lanciatori, dove applico ML a dati di telemetria, simulazioni e test di produzione e validazione.</p>
-<p>Mi muovo lungo tutto il ciclo di vita di un progetto ML: dalla raccolta e strutturazione dei dati grezzi, all’Exploratory Data Analysis, allo sviluppo e validazione di modelli, fino al deploy e monitoraggio. Negli ultimi anni ho ampliato il focus verso LLM e GenAI, con un particolare focus sull’Agentic AI.</p>
+<section id="hi-im-eugenio" class="level2">
+<h2 class="anchored" data-anchor-id="hi-im-eugenio">Hi, I’m Eugenio</h2>
+<p>I’m an AI Engineer. Right now I work with data that comes from rockets.</p>
+<p>At Avio S.p.A. I build machine learning models for space launcher engineering: surrogate models that learn from numerical simulations and experimental data, computer vision systems that monitor industrial tests, and RAG and agentic AI systems that let engineers query internal technical documentation in plain language.</p>
+<p>I got here through mathematics — a BSc in Siena, an MSc in Applied Mathematics in Bologna, and then eight years across very different domains: banking, telco, oil &amp; gas, automotive, tires, and now aerospace. The hard part was always understanding the problem and data well enough to know what question to ask the data in the first place. That is Data Science for me.</p>
+<!-- TODO: sezione da riscrivere — versione provvisoria -->
 </section>
-<section id="esperienza" class="level2">
-<h2 class="anchored" data-anchor-id="esperienza">Esperienza</h2>
-<section id="avio-s.p.a-ai-engineer" class="level3">
-<h3 class="anchored" data-anchor-id="avio-s.p.a-ai-engineer">Avio S.p.A · AI Engineer</h3>
-<p><em>Maggio 2025 — oggi · Aerospace (Lanciatori)</em></p>
-<p>Riferimento tecnico AI per il team di Ingegneria. Modelli surrogati ML su simulazioni numeriche e dati sperimentali, Computer Vision per monitoring automatico di test industriali, sistema RAG aziendale end-to-end su documentazione tecnica complessa.</p>
+<section id="how-i-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-i-work">How I work</h2>
+<p><strong>I care more about validation than accuracy.</strong> A model scoring 0.95 on a random split and collapsing on an unseen operating condition is worth nothing — and in aerospace, slightly less than nothing. The part of the job I spend the most time on is designing validation strategies that reflect how the model will actually be used.</p>
+<p><strong>I care about interpretability.</strong> I work with engineers who understand the physics of their systems far better than any model does. An output they can’t interrogate is an output they won’t adopt, and they’re right not to.</p>
+<p><strong>I care about things shipping.</strong> A notebook that only runs on my laptop isn’t a project. It’s an experiment.</p>
 </section>
-<section id="conexo-s.r.l-machine-learning-specialist" class="level3">
-<h3 class="anchored" data-anchor-id="conexo-s.r.l-machine-learning-specialist">Conexo s.r.l · Machine Learning Specialist</h3>
-<p><em>Aprile 2021 — Maggio 2025 · Digital Engineering Automotive</em></p>
-<p>Progetti ML end-to-end per cliente automotive Tier 1: ingestione multi-sorgente (Oracle, Postgres, MongoDB, Hive), modellazione predittiva e clustering, interpretabilità SHAP, pipeline di Computer Vision (CNN, Faster R-CNN, DETR) con PyTorch e OCR. Coordinamento del team Data Scientist in metodologia Agile. Stack: Azure Databricks (Spark), Docker, GPU.</p>
+<section id="outside-work" class="level2">
+<h2 class="anchored" data-anchor-id="outside-work">Outside work</h2>
+<p>I’ve played piano since I was a kid — classical first, with years at the Conservatory and a handful of concerts, then jazz, which turned out to be an entirely different discipline. Now I enjoy play both genres. I love whole the music.</p>
+<p>I’ve been a regular blood donor with AVIS since 2015.</p>
 </section>
-<section id="cassa-lombarda-s.p.a-data-engineer-bi-specialist" class="level3">
-<h3 class="anchored" data-anchor-id="cassa-lombarda-s.p.a-data-engineer-bi-specialist">Cassa Lombarda S.p.A · Data Engineer &amp; BI Specialist</h3>
-<p><em>Settembre 2020 — Aprile 2021 · Banking</em></p>
-<p>Data Governance e architettura DWH. Automazione ingestione (PL/SQL, trigger, XML). Soluzioni interattive di Business Intelligence.</p>
-</section>
-<section id="bip-consulting-data-scientist" class="level3">
-<h3 class="anchored" data-anchor-id="bip-consulting-data-scientist">Bip Consulting · Data Scientist</h3>
-<p><em>Marzo 2019 — Settembre 2020 · Consulenza (XTech)</em></p>
-<p>Progetti multi-settore per clienti Media&amp;TelCo (segmentazione e churn), Banking (dashboard Power BI) e Oil&amp;Gas (supporto a gara d’appalto con definizione di KPI, SLA e governance).</p>
-</section>
-<section id="advancia-technology-etl-developer" class="level3">
-<h3 class="anchored" data-anchor-id="advancia-technology-etl-developer">Advancia Technology · ETL Developer</h3>
-<p><em>Novembre 2018 — Marzo 2019 · Banking</em></p>
-<p>Flussi di ingestione su DWH Apache Hadoop (Hive) con IBM InfoSphere DataStage e Oracle ODI.</p>
-</section>
-<section id="infn-cnaf-arces-università-di-bologna-tirocinante" class="level3">
-<h3 class="anchored" data-anchor-id="infn-cnaf-arces-università-di-bologna-tirocinante">INFN-CNAF (ARCES, Università di Bologna) · Tirocinante</h3>
-<p><em>Marzo 2018 — Settembre 2018 · Ricerca</em></p>
-<p>Tesi: ML e Deep Neural Networks per l’analisi di urti fisici su oggetti complessi. Python (Keras, TensorFlow), Matlab.</p>
-</section>
-</section>
-<section id="competenze-tecniche" class="level2">
-<h2 class="anchored" data-anchor-id="competenze-tecniche">Competenze tecniche</h2>
-<p><strong>Linguaggi &amp; Core ML</strong> Python (esperto), SQL, PL/SQL · scikit-learn, XGBoost · PyTorch, TensorFlow/Keras · Pandas, NumPy · Spark (PySpark)</p>
-<p><strong>Computer Vision</strong> CNN, Faster R-CNN, DETR · object detection, tracking, segmentazione · OCR (Tesseract)</p>
-<p><strong>GenAI &amp; LLM</strong> RAG end-to-end · pipeline di ingestion documentale · vector DB · embedding models · LangChain · Ollama, Open WebUI</p>
-<p><strong>Modellazione &amp; Interpretabilità</strong> Modelli predittivi surrogati su dati di simulazione · Clustering · Causal ML (CausalML) · SHAP</p>
-<p><strong>Data Engineering</strong> Oracle, PostgreSQL, MongoDB, Hive · ETL (IBM DataStage, Oracle ODI) · DWH design · scraping (Selenium, BeautifulSoup, API)</p>
-<p><strong>Cloud, Deploy &amp; DevOps</strong> Azure Databricks · Docker · Git · ambienti GPU · JupyterHub</p>
-<p><strong>Visualization &amp; BI</strong> Plotly · Matplotlib, Seaborn · Power BI · Streamlit</p>
-<p><strong>Lingue</strong> Italiano (madrelingua) · Inglese (avanzato) · Spagnolo (base)</p>
-</section>
-<section id="contatti" class="level2">
-<h2 class="anchored" data-anchor-id="contatti">Contatti</h2>
-<ul>
-<li>Email: <a href="mailto:eu.rossini@gmail.com">eu.rossini@gmail.com</a></li>
-<li>LinkedIn: <a href="https://www.linkedin.com/in/eugenio-rossini/">linkedin.com/in/eugenio-rossini</a></li>
-<li>GitHub: <a href="https://github.com/EugenioRss">github.com/EugenioRss</a></li>
-</ul>
+<section id="get-in-touch" class="level2">
+<h2 class="anchored" data-anchor-id="get-in-touch">Get in touch</h2>
+<p>Based near Rome. Open to conversations about applied ML in engineering and industrial contexts.</p>
+<p><a href="mailto:eu.rossini@gmail.com">Email</a> · <a href="https://linkedin.com/in/eugenio-rossini">LinkedIn</a> · <a href="https://github.com/EugenioRss">GitHub</a></p>
 
 
 </section>
