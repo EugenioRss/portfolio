@@ -3,16 +3,18 @@ title: "Eugenio Rossini"
 subtitle: "Senior Data Scientist & ML Engineer"
 about:
   template: trestles
-  image: assets/images/profile.jpg
+  image: assets/images/profile.png
   image-shape: round
   image-width: 12em
   links:
     - icon: linkedin
       text: LinkedIn
       href: https://www.linkedin.com/in/eugenio-rossini/
+      target: _blank
     - icon: github
       text: GitHub
       href: https://github.com/EugenioRss
+      target: _blank
     - icon: envelope
       text: Email
       href: mailto:eu.rossini@gmail.com

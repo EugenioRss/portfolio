@@ -2,97 +2,51 @@
 title: "About"
 ---
 
-## Profilo
+## Hi, I'm Eugenio
 
-Sono un Machine Learning Engineer con 7 anni di esperienza. Il mio percorso è
-iniziato nella consulenza di servizi specializzati in soluzioni di Data Science,
-Data Engineer e Business Intelligence, poi mi sono specializzato nel MLOps per
-industrie automotive e manufacturing e oggi lavoro nel settore aerospace su lanciatori,
-dove applico ML a dati di telemetria, simulazioni e test di produzione e validazione.
+I'm an AI Engineer. Right now I work with data that comes from rockets.
 
-Mi muovo lungo tutto il ciclo di vita di un progetto ML: dalla raccolta e
-strutturazione dei dati grezzi, all'Exploratory Data Analysis, allo sviluppo e validazione di
-modelli, fino al deploy e monitoraggio. Negli ultimi anni ho ampliato il focus
-verso LLM e GenAI, con un particolare focus sull'Agentic AI.
+At Avio S.p.A. I build machine learning models for space launcher engineering:
+surrogate models that learn from numerical simulations and experimental data,
+computer vision systems that monitor industrial tests, and RAG and agentic AI
+systems that let engineers query internal technical documentation in plain
+language.
 
-## Esperienza
+I got here through mathematics — a BSc in Siena, an MSc in Applied Mathematics
+in Bologna, and then eight years across very different domains: banking, telco,
+oil & gas, automotive, tires, and now aerospace. The hard part was always
+understanding the problem and data well enough to know what question to ask the
+data in the first place. That is Data Science for me.
 
-### Avio S.p.A · AI Engineer
-*Maggio 2025 — oggi · Aerospace (Lanciatori)*
+<!-- TODO: sezione da riscrivere — versione provvisoria -->
+## How I work
 
-Riferimento tecnico AI per il team di Ingegneria. Modelli surrogati
-ML su simulazioni numeriche e dati sperimentali, Computer Vision
-per monitoring automatico di test industriali, sistema RAG aziendale
-end-to-end su documentazione tecnica complessa.
+**I care more about validation than accuracy.** A model scoring 0.95 on a random
+split and collapsing on an unseen operating condition is worth nothing — and in
+aerospace, slightly less than nothing. The part of the job I spend the most time
+on is designing validation strategies that reflect how the model will actually
+be used.
 
-### Conexo s.r.l · Machine Learning Specialist
-*Aprile 2021 — Maggio 2025 · Digital Engineering Automotive*
+**I care about interpretability.** I work with engineers who understand the
+physics of their systems far better than any model does. An output they can't
+interrogate is an output they won't adopt, and they're right not to.
 
-Progetti ML end-to-end per cliente automotive Tier 1: ingestione
-multi-sorgente (Oracle, Postgres, MongoDB, Hive), modellazione
-predittiva e clustering, interpretabilità SHAP, pipeline di Computer
-Vision (CNN, Faster R-CNN, DETR) con PyTorch e OCR. Coordinamento
-del team Data Scientist in metodologia Agile. Stack: Azure Databricks
-(Spark), Docker, GPU.
+**I care about things shipping.** A notebook that only runs on my laptop isn't a
+project. It's an experiment.
 
-### Cassa Lombarda S.p.A · Data Engineer & BI Specialist
-*Settembre 2020 — Aprile 2021 · Banking*
+## Outside work
 
-Data Governance e architettura DWH. Automazione ingestione
-(PL/SQL, trigger, XML). Soluzioni interattive di Business Intelligence.
+I've played piano since I was a kid — classical first, with years at the
+Conservatory and a handful of concerts, then jazz, which turned out to be an
+entirely different discipline. Now I enjoy play both genres. I love whole the music.
 
-### Bip Consulting · Data Scientist
-*Marzo 2019 — Settembre 2020 · Consulenza (XTech)*
+I've been a regular blood donor with AVIS since 2015.
 
-Progetti multi-settore per clienti Media&TelCo (segmentazione e
-churn), Banking (dashboard Power BI) e Oil&Gas (supporto a gara
-d'appalto con definizione di KPI, SLA e governance).
+## Get in touch
 
-### Advancia Technology · ETL Developer
-*Novembre 2018 — Marzo 2019 · Banking*
+Based near Rome. Open to conversations about applied ML in engineering and
+industrial contexts.
 
-Flussi di ingestione su DWH Apache Hadoop (Hive) con IBM InfoSphere
-DataStage e Oracle ODI.
-
-### INFN-CNAF (ARCES, Università di Bologna) · Tirocinante
-*Marzo 2018 — Settembre 2018 · Ricerca*
-
-Tesi: ML e Deep Neural Networks per l'analisi di urti fisici su
-oggetti complessi. Python (Keras, TensorFlow), Matlab.
-
-## Competenze tecniche
-
-**Linguaggi & Core ML**
-Python (esperto), SQL, PL/SQL · scikit-learn, XGBoost · PyTorch,
-TensorFlow/Keras · Pandas, NumPy · Spark (PySpark)
-
-**Computer Vision**
-CNN, Faster R-CNN, DETR · object detection, tracking, segmentazione
-· OCR (Tesseract)
-
-**GenAI & LLM**
-RAG end-to-end · pipeline di ingestion documentale · vector DB ·
-embedding models · LangChain · Ollama, Open WebUI
-
-**Modellazione & Interpretabilità**
-Modelli predittivi surrogati su dati di simulazione · Clustering ·
-Causal ML (CausalML) · SHAP
-
-**Data Engineering**
-Oracle, PostgreSQL, MongoDB, Hive · ETL (IBM DataStage, Oracle ODI)
-· DWH design · scraping (Selenium, BeautifulSoup, API)
-
-**Cloud, Deploy & DevOps**
-Azure Databricks · Docker · Git · ambienti GPU · JupyterHub
-
-**Visualization & BI**
-Plotly · Matplotlib, Seaborn · Power BI · Streamlit
-
-**Lingue**
-Italiano (madrelingua) · Inglese (avanzato) · Spagnolo (base)
-
-## Contatti
-
-- Email: [eu.rossini@gmail.com](mailto:eu.rossini@gmail.com)
-- LinkedIn: [linkedin.com/in/eugenio-rossini](https://www.linkedin.com/in/eugenio-rossini/)
-- GitHub: [github.com/EugenioRss](https://github.com/EugenioRss)
+[Email](mailto:eu.rossini@gmail.com) ·
+[LinkedIn](https://linkedin.com/in/eugenio-rossini) ·
+[GitHub](https://github.com/EugenioRss)

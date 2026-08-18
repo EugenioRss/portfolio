@@ -7,7 +7,7 @@ website:
   description: "Senior Data Scientist & ML Engineer — Aerospace, Industrial AI, GenAI"
   site-url: https://EugenioRss.github.io/portfolio
   repo-url: https://github.com/EugenioRss/portfolio
-  favicon: assets/images/favicon.png
+  favicon: assets/images/favicon.svg
 
   navbar:
     background: primary
